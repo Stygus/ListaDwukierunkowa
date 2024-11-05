@@ -21,51 +21,12 @@ public:
 	ListaDwukierunkowa() : poczatek(nullptr), koniec(nullptr), ilosc_elementow(0) {  }
 	~ListaDwukierunkowa() {};
 
-	void Dodawanie_napoczatek(int dane);
-	void Dodawanie_nakoniec(int dane) {
-
-		if (ilosc_elementow > 0)
-		{
-			Wezel* morski = new Wezel;
-			koniec->nastepny_wezel = morski;
-			koniec->nastepny_wezel->poprzedni_wezel = koniec;  // relacje miedzy wezlami
-			koniec = morski;    // ustawienie poczatku 
-			morski->wartosc = dane;   //ustawienie danych
-
-
-		}
-		else
-		{
-			Wezel* morski = new Wezel;
-			poczatek = morski;   // jedyny wenzel
-			koniec = morski;
-			morski->wartosc = dane;
-		}
-
-		ilosc_elementow++;
-	}
-	void Wyswietlanie_od_poczatku() {
-		Wezel* wskaznik = new Wezel;
-		wskaznik = poczatek;
-		for (int i = 0; i < ilosc_elementow; i++)
-		{
-			cout << wskaznik->wartosc << endl;
-			wskaznik = wskaznik->nastepny_wezel;
-		}
-	}
-
-	void Wyswietlanie_od_konca() {
-		Wezel* wskaznik = new Wezel;
-		wskaznik = koniec;
-		for (int i = 0; i < ilosc_elementow; i++)
-		{
-			cout << wskaznik->wartosc << endl;
-			wskaznik = wskaznik->poprzedni_wezel;
-		}
-	}
-
-
-
-
+	void Dodawanie_napoczatek(int wartosc);
+	void Dodawanie_nakoniec(int wartosc);
+	void Wyswietlanie_od_poczatku();
+	void Wyswietlanie_od_konca();
+	Wezel* Dodawanie_na_index(int wartosc, int index);
+	void usuwanie_z_poczatku();
+	void usuwanie_z_konca();
 };
 

@@ -1,2 +1,5 @@
 ﻿  ListaDwukierunkowa.cpp
-  ListaDwukierunkowa.vcxproj -> C:\Users\kubat\OneDrive\Pictures\Documents\GitHub\ListaDwukierunkowa\x64\Debug\ListaDwukierunkowa.exe
+  main.cpp
+  Generowanie kodu...
+C:\Users\kubat\OneDrive\Pictures\Documents\GitHub\Listadwukierunkowa\ListaDwukierunkowa\ListaDwukierunkowa.cpp(104,1): warning C4715: "ListaDwukierunkowa::Dodawanie_na_index”: niewszystkie ścieżki kodu zwracają wartość
+  ListaDwukierunkowa.vcxproj -> C:\Users\kubat\OneDrive\Pictures\Documents\GitHub\Listadwukierunkowa\x64\Debug\ListaDwukierunkowa.exe
