@@ -23,10 +23,7 @@ void ListaDwukierunkowa::Dodawanie_napoczatek(int wartosc) {
 
 	ilosc_elementow++;
 }
-/// <summary>
-/// /////
-/// </summary>
-/// <param name="wartosc"></param>
+
 void ListaDwukierunkowa::Dodawanie_nakoniec(int wartosc) {
 
 	if (ilosc_elementow > 0)
@@ -49,21 +46,24 @@ void ListaDwukierunkowa::Dodawanie_nakoniec(int wartosc) {
 
 	ilosc_elementow++;
 }
-/// <summary>
-/// ////////
-/// </summary>
+
 void ListaDwukierunkowa::Wyswietlanie_od_poczatku() {
 	Wezel* wskaznik = new Wezel;
 	wskaznik = poczatek;
-	for (int i = 0; i < ilosc_elementow; i++)
+	for (int i = 0; i < ilosc_elementow ; i++)
 	{
 		cout << wskaznik->wartosc << endl;
-		wskaznik = wskaznik->nastepny_wezel;
+		if (wskaznik->nastepny_wezel != nullptr) {
+			wskaznik = wskaznik->nastepny_wezel;
+
+		}
+		else
+		{
+			return;
+		}
 	}
 }
-/// <summary>
-/// ///////////
-/// </summary>
+
 
 void ListaDwukierunkowa::Wyswietlanie_od_konca() {
 	Wezel* wskaznik = new Wezel;
@@ -75,14 +75,9 @@ void ListaDwukierunkowa::Wyswietlanie_od_konca() {
 	}
 }
 
-/// <summary>
-/// ///
-/// </summary>
-/// <param name="wartosc"></param>
-/// <param name="index"></param>
-/// <returns></returns>
 
-Wezel* ListaDwukierunkowa::Dodawanie_na_index(int wartosc, int index) {
+
+void ListaDwukierunkowa::Dodawanie_na_index(int wartosc, int index) {
 	if (index > 0 && index < ilosc_elementow) {
 		Wezel* nowyWezel = new Wezel;
 		Wezel* wskaznik = poczatek;
@@ -96,16 +91,14 @@ Wezel* ListaDwukierunkowa::Dodawanie_na_index(int wartosc, int index) {
 		nowyWezel->poprzedni_wezel = wskaznik;
 		nowyWezel->wartosc = wartosc;
 		ilosc_elementow++;
-		return nowyWezel;
+		
 	}
 	else if (index == 0) Dodawanie_napoczatek(wartosc);
 	else if (index == ilosc_elementow) Dodawanie_nakoniec(wartosc);
 	else cout << "Index poza listą";
 }
 
-/// <summary>
-/// /////////
-/// </summary>
+
 
 void ListaDwukierunkowa::usuwanie_z_poczatku() {
 	if (!poczatek) {
@@ -118,9 +111,8 @@ void ListaDwukierunkowa::usuwanie_z_poczatku() {
 		poczatek->poprzedni_wezel = nullptr;
 		delete obecny;
 	}
-	ilosc_elementow;
+	ilosc_elementow--;
 }
-
 
 void ListaDwukierunkowa::usuwanie_z_konca() {
 	if (!koniec) {
@@ -135,6 +127,4 @@ void ListaDwukierunkowa::usuwanie_z_konca() {
 	}
 	ilosc_elementow;
 }
-
-
 

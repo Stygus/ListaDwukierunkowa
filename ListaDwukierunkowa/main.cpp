@@ -12,14 +12,14 @@ int main()
     a.Dodawanie_napoczatek(5);
     a.Dodawanie_nakoniec(6);
     a.Dodawanie_nakoniec(7);
-    a.Dodawanie_napoczatek(9);
+    a.Dodawanie_nakoniec(9);
+    /*a.Wyswietlanie_od_poczatku();
+    cout << endl;*/
+   /* a.Dodawanie_na_index(5,0);*/
     a.Wyswietlanie_od_poczatku();
- /*   cout << endl;
-    a.Wyswietlanie_od_konca();
-*/
     a.usuwanie_z_poczatku();
-
-
+    cout << endl;
+    a.Wyswietlanie_od_poczatku();
 
 }
 

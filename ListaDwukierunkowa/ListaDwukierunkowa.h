@@ -4,8 +4,8 @@ using namespace std;
 struct Wezel
 {
 	int wartosc;
-	Wezel* poprzedni_wezel;
-	Wezel* nastepny_wezel;  // domyslnie pola i metody sa publiczne w structcie 
+	Wezel* nastepny_wezel;
+	Wezel* poprzedni_wezel;  // domyslnie pola i metody sa publiczne w structcie 
 	Wezel() : wartosc(NULL), poprzedni_wezel(nullptr), nastepny_wezel(nullptr) {}; 
 	~Wezel() {};
 };
@@ -25,8 +25,16 @@ public:
 	void Dodawanie_nakoniec(int wartosc);
 	void Wyswietlanie_od_poczatku();
 	void Wyswietlanie_od_konca();
-	Wezel* Dodawanie_na_index(int wartosc, int index);
+	void Dodawanie_na_index(int wartosc, int index);
 	void usuwanie_z_poczatku();
 	void usuwanie_z_konca();
+	///*void usuwanie_z_indexu();*/
+	//void poruszanie_po_liscie();
+
 };
+
+
+
+
+
 
