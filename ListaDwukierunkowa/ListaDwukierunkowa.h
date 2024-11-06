@@ -28,7 +28,7 @@ public:
 	void Dodawanie_na_index(int wartosc, int index);
 	void usuwanie_z_poczatku();
 	void usuwanie_z_konca();
-	///*void usuwanie_z_indexu();*/
+	void usuwanie_z_indexu(int index);
 	//void poruszanie_po_liscie();
 
 };

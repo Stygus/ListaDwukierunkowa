@@ -17,7 +17,8 @@ int main()
     cout << endl;*/
    /* a.Dodawanie_na_index(5,0);*/
     a.Wyswietlanie_od_poczatku();
-    a.usuwanie_z_poczatku();
+    /*a.usuwanie_z_poczatku();*/
+    a.usuwanie_z_konca();
     cout << endl;
     a.Wyswietlanie_od_poczatku();
 
