@@ -1,0 +1,106 @@
+\begin{theindex}
+
+  \item {\texorpdfstring{$\sim$}{\string~}ListaDwukierunkowa}
+    \subitem {ListaDwukierunkowa}, \hyperpage{3}
+  \item {\texorpdfstring{$\sim$}{\string~}Wezel}
+    \subitem {Wezel}, \hyperpage{7}
+
+  \indexspace
+
+  \item {czyszczenie\_listy}
+    \subitem {ListaDwukierunkowa}, \hyperpage{3}
+
+  \indexspace
+
+  \item {Dodawanie\_na\_index}
+    \subitem {ListaDwukierunkowa}, \hyperpage{3}
+  \item {Dodawanie\_nakoniec}
+    \subitem {ListaDwukierunkowa}, \hyperpage{4}
+  \item {Dodawanie\_napoczatek}
+    \subitem {ListaDwukierunkowa}, \hyperpage{4}
+
+  \indexspace
+
+  \item {ilosc\_elementow}
+    \subitem {ListaDwukierunkowa}, \hyperpage{6}
+
+  \indexspace
+
+  \item {koniec}
+    \subitem {ListaDwukierunkowa}, \hyperpage{6}
+
+  \indexspace
+
+  \item {ListaDwukierunkowa}, \hyperpage{2}
+    \subitem {\texorpdfstring{$\sim$}{\string~}ListaDwukierunkowa}, 
+		\hyperpage{3}
+    \subitem {czyszczenie\_listy}, \hyperpage{3}
+    \subitem {Dodawanie\_na\_index}, \hyperpage{3}
+    \subitem {Dodawanie\_nakoniec}, \hyperpage{4}
+    \subitem {Dodawanie\_napoczatek}, \hyperpage{4}
+    \subitem {ilosc\_elementow}, \hyperpage{6}
+    \subitem {koniec}, \hyperpage{6}
+    \subitem {ListaDwukierunkowa}, \hyperpage{3}
+    \subitem {poczatek}, \hyperpage{6}
+    \subitem {usuwanie\_z\_indexu}, \hyperpage{4}
+    \subitem {usuwanie\_z\_konca}, \hyperpage{4}
+    \subitem {usuwanie\_z\_poczatku}, \hyperpage{5}
+    \subitem {wezel}, \hyperpage{6}
+    \subitem {wyswietl\_nastepny}, \hyperpage{5}
+    \subitem {wyswietl\_poprzedni}, \hyperpage{5}
+    \subitem {Wyswietlanie\_od\_konca}, \hyperpage{5}
+    \subitem {Wyswietlanie\_od\_poczatku}, \hyperpage{5}
+  \item {ListaDwukierunkowa/ListaDwukierunkowa.cpp}, \hyperpage{8}
+  \item {ListaDwukierunkowa/ListaDwukierunkowa.h}, \hyperpage{10}
+  \item {ListaDwukierunkowa/main.cpp}, \hyperpage{11, 12}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{11}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{11}
+
+  \indexspace
+
+  \item {nastepny\_wezel}
+    \subitem {Wezel}, \hyperpage{7}
+
+  \indexspace
+
+  \item {poczatek}
+    \subitem {ListaDwukierunkowa}, \hyperpage{6}
+  \item {poprzedni\_wezel}
+    \subitem {Wezel}, \hyperpage{7}
+
+  \indexspace
+
+  \item {usuwanie\_z\_indexu}
+    \subitem {ListaDwukierunkowa}, \hyperpage{4}
+  \item {usuwanie\_z\_konca}
+    \subitem {ListaDwukierunkowa}, \hyperpage{4}
+  \item {usuwanie\_z\_poczatku}
+    \subitem {ListaDwukierunkowa}, \hyperpage{5}
+
+  \indexspace
+
+  \item {wartosc}
+    \subitem {Wezel}, \hyperpage{8}
+  \item {Wezel}, \hyperpage{6}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Wezel}, \hyperpage{7}
+    \subitem {nastepny\_wezel}, \hyperpage{7}
+    \subitem {poprzedni\_wezel}, \hyperpage{7}
+    \subitem {wartosc}, \hyperpage{8}
+    \subitem {Wezel}, \hyperpage{7}
+  \item {wezel}
+    \subitem {ListaDwukierunkowa}, \hyperpage{6}
+  \item {wyswietl\_nastepny}
+    \subitem {ListaDwukierunkowa}, \hyperpage{5}
+  \item {wyswietl\_poprzedni}
+    \subitem {ListaDwukierunkowa}, \hyperpage{5}
+  \item {Wyswietlanie\_od\_konca}
+    \subitem {ListaDwukierunkowa}, \hyperpage{5}
+  \item {Wyswietlanie\_od\_poczatku}
+    \subitem {ListaDwukierunkowa}, \hyperpage{5}
+
+\end{theindex}

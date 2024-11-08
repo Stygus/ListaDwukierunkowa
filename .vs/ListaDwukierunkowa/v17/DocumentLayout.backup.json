@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kubat\\OneDrive\\Pictures\\Documents\\GitHub\\ListaDwukierunkowa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48CD754B-E2D2-45FA-AC43-BB712CAFD6C1}|ListaDwukierunkowa\\ListaDwukierunkowa.vcxproj|C:\\Users\\kubat\\OneDrive\\Pictures\\Documents\\GitHub\\ListaDwukierunkowa\\ListaDwukierunkowa\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48CD754B-E2D2-45FA-AC43-BB712CAFD6C1}|ListaDwukierunkowa\\ListaDwukierunkowa.vcxproj|solutionrelative:ListaDwukierunkowa\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48CD754B-E2D2-45FA-AC43-BB712CAFD6C1}|ListaDwukierunkowa\\ListaDwukierunkowa.vcxproj|C:\\Users\\kubat\\OneDrive\\Pictures\\Documents\\GitHub\\Listadwukierunkowa\\ListaDwukierunkowa\\ListaDwukierunkowa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{48CD754B-E2D2-45FA-AC43-BB712CAFD6C1}|ListaDwukierunkowa\\ListaDwukierunkowa.vcxproj|solutionrelative:ListaDwukierunkowa\\ListaDwukierunkowa.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,8 +15,7 @@
       "RelativeMoniker": "D:0:0:{48CD754B-E2D2-45FA-AC43-BB712CAFD6C1}|ListaDwukierunkowa\\ListaDwukierunkowa.vcxproj|solutionrelative:ListaDwukierunkowa\\ListaDwukierunkowa.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48CD754B-E2D2-45FA-AC43-BB712CAFD6C1}|ListaDwukierunkowa\\ListaDwukierunkowa.vcxproj|C:\\Users\\kubat\\OneDrive\\Pictures\\Documents\\GitHub\\ListaDwukierunkowa\\ListaDwukierunkowa\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48CD754B-E2D2-45FA-AC43-BB712CAFD6C1}|ListaDwukierunkowa\\ListaDwukierunkowa.vcxproj|solutionrelative:ListaDwukierunkowa\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kubat\\OneDrive\\Skrivbord\\eloo\\Listy\\Listy\\Listy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,39 +33,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Listy.cpp",
+              "DocumentMoniker": "C:\\Users\\kubat\\OneDrive\\Skrivbord\\eloo\\Listy\\Listy\\Listy.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Skrivbord\\eloo\\Listy\\Listy\\Listy.cpp",
+              "ToolTip": "C:\\Users\\kubat\\OneDrive\\Skrivbord\\eloo\\Listy\\Listy\\Listy.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\Skrivbord\\eloo\\Listy\\Listy\\Listy.cpp",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-06T17:06:31.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ListaDwukierunkowa.cpp",
               "DocumentMoniker": "C:\\Users\\kubat\\OneDrive\\Pictures\\Documents\\GitHub\\ListaDwukierunkowa\\ListaDwukierunkowa\\ListaDwukierunkowa.cpp",
               "RelativeDocumentMoniker": "ListaDwukierunkowa\\ListaDwukierunkowa.cpp",
-              "ToolTip": "C:\\Users\\kubat\\OneDrive\\Pictures\\Documents\\GitHub\\ListaDwukierunkowa\\ListaDwukierunkowa\\ListaDwukierunkowa.cpp*",
-              "RelativeToolTip": "ListaDwukierunkowa\\ListaDwukierunkowa.cpp*",
-              "ViewState": "AgIAACUAAAAAAAAAAAAwwEMAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kubat\\OneDrive\\Pictures\\Documents\\GitHub\\ListaDwukierunkowa\\ListaDwukierunkowa\\ListaDwukierunkowa.cpp",
+              "RelativeToolTip": "ListaDwukierunkowa\\ListaDwukierunkowa.cpp",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAiwNIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-05T21:10:14.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ListaDwukierunkowa.h",
               "DocumentMoniker": "C:\\Users\\kubat\\OneDrive\\Pictures\\Documents\\GitHub\\ListaDwukierunkowa\\ListaDwukierunkowa\\ListaDwukierunkowa.h",
               "RelativeDocumentMoniker": "ListaDwukierunkowa\\ListaDwukierunkowa.h",
               "ToolTip": "C:\\Users\\kubat\\OneDrive\\Pictures\\Documents\\GitHub\\ListaDwukierunkowa\\ListaDwukierunkowa\\ListaDwukierunkowa.h",
               "RelativeToolTip": "ListaDwukierunkowa\\ListaDwukierunkowa.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-05T21:10:20.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T21:10:20.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\kubat\\OneDrive\\Pictures\\Documents\\GitHub\\ListaDwukierunkowa\\ListaDwukierunkowa\\main.cpp",
               "RelativeDocumentMoniker": "ListaDwukierunkowa\\main.cpp",
               "ToolTip": "C:\\Users\\kubat\\OneDrive\\Pictures\\Documents\\GitHub\\ListaDwukierunkowa\\ListaDwukierunkowa\\main.cpp",
               "RelativeToolTip": "ListaDwukierunkowa\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-05T21:10:17.266Z",
               "EditorCaption": ""

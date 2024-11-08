@@ -1,0 +1,51 @@
+\doxysubsection{Lista\+Dwukierunkowa.\+h}
+\hypertarget{_lista_dwukierunkowa_8h_source}{}\label{_lista_dwukierunkowa_8h_source}\index{ListaDwukierunkowa/ListaDwukierunkowa.h@{ListaDwukierunkowa/ListaDwukierunkowa.h}}
+\mbox{\hyperlink{_lista_dwukierunkowa_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00001}00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00002}00002\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00007}\mbox{\hyperlink{struct_wezel}{00007}}\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{struct_wezel}{Wezel}}\ \{}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00008}\mbox{\hyperlink{struct_wezel_ab26d2571cea51b8e4494fd8c39126416}{00008}}\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{struct_wezel_ab26d2571cea51b8e4494fd8c39126416}{wartosc}};\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00009}\mbox{\hyperlink{struct_wezel_af4d92efbc66fdf7ea5e1557736b420a8}{00009}}\ \ \ \ \ \mbox{\hyperlink{struct_wezel}{Wezel}}*\ \mbox{\hyperlink{struct_wezel_af4d92efbc66fdf7ea5e1557736b420a8}{nastepny\_wezel}};\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00010}\mbox{\hyperlink{struct_wezel_a014f8799ae8ac45bb89c56aa59a27374}{00010}}\ \ \ \ \ \mbox{\hyperlink{struct_wezel}{Wezel}}*\ \mbox{\hyperlink{struct_wezel_a014f8799ae8ac45bb89c56aa59a27374}{poprzedni\_wezel}};\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00015}\mbox{\hyperlink{struct_wezel_a4b0f983c449278e4285687fdcddb5415}{00015}}\ \ \ \ \ \mbox{\hyperlink{struct_wezel_a4b0f983c449278e4285687fdcddb5415}{Wezel}}()\ :\ \mbox{\hyperlink{struct_wezel_ab26d2571cea51b8e4494fd8c39126416}{wartosc}}(NULL),\ \mbox{\hyperlink{struct_wezel_a014f8799ae8ac45bb89c56aa59a27374}{poprzedni\_wezel}}(nullptr),\ \mbox{\hyperlink{struct_wezel_af4d92efbc66fdf7ea5e1557736b420a8}{nastepny\_wezel}}(nullptr)\ \{\}}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00020}\mbox{\hyperlink{struct_wezel_a9402bd29dc9095f47336f9a655acf922}{00020}}\ \ \ \ \ \mbox{\hyperlink{struct_wezel_a9402bd29dc9095f47336f9a655acf922}{\string~Wezel}}()\ \{\}}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00021}00021\ \};}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00022}00022\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00026}\mbox{\hyperlink{class_lista_dwukierunkowa}{00026}}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_lista_dwukierunkowa}{ListaDwukierunkowa}}\ \{}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00027}00027\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00028}\mbox{\hyperlink{class_lista_dwukierunkowa_a679545eec04e967ddba12353416f8ec6}{00028}}\ \ \ \ \ \mbox{\hyperlink{struct_wezel}{Wezel}}*\ \mbox{\hyperlink{class_lista_dwukierunkowa_a679545eec04e967ddba12353416f8ec6}{poczatek}};\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00029}\mbox{\hyperlink{class_lista_dwukierunkowa_a6c2cd8ecc2f0160e7ef5fc7a80278afe}{00029}}\ \ \ \ \ \mbox{\hyperlink{struct_wezel}{Wezel}}*\ \mbox{\hyperlink{class_lista_dwukierunkowa_a6c2cd8ecc2f0160e7ef5fc7a80278afe}{koniec}};\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00030}\mbox{\hyperlink{class_lista_dwukierunkowa_a0dbeb14d05b1dae54a086a9638b98187}{00030}}\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_lista_dwukierunkowa_a0dbeb14d05b1dae54a086a9638b98187}{ilosc\_elementow}};\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00032}00032\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00033}\mbox{\hyperlink{class_lista_dwukierunkowa_a5bf13510bdcd9917ca67d0ca9db94fbf}{00033}}\ \ \ \ \ \mbox{\hyperlink{struct_wezel}{Wezel}}*\ \mbox{\hyperlink{class_lista_dwukierunkowa_a5bf13510bdcd9917ca67d0ca9db94fbf}{wezel}};\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00038}\mbox{\hyperlink{class_lista_dwukierunkowa_a5171fe8d7617c75381a2021fc73dfd2d}{00038}}\ \ \ \ \ \mbox{\hyperlink{class_lista_dwukierunkowa_a5171fe8d7617c75381a2021fc73dfd2d}{ListaDwukierunkowa}}()\ :\ \mbox{\hyperlink{class_lista_dwukierunkowa_a679545eec04e967ddba12353416f8ec6}{poczatek}}(nullptr),\ \mbox{\hyperlink{class_lista_dwukierunkowa_a6c2cd8ecc2f0160e7ef5fc7a80278afe}{koniec}}(nullptr),\ \mbox{\hyperlink{class_lista_dwukierunkowa_a0dbeb14d05b1dae54a086a9638b98187}{ilosc\_elementow}}(0),\ \mbox{\hyperlink{class_lista_dwukierunkowa_a5bf13510bdcd9917ca67d0ca9db94fbf}{wezel}}(nullptr)\ \{\}}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00039}00039\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00043}\mbox{\hyperlink{class_lista_dwukierunkowa_a55ced6c1f79ed8ca34b3f406eeafd547}{00043}}\ \ \ \ \ \mbox{\hyperlink{class_lista_dwukierunkowa_a55ced6c1f79ed8ca34b3f406eeafd547}{\string~ListaDwukierunkowa}}()\ \{\}}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00044}00044\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00050}00050\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lista_dwukierunkowa_ac5fbea8c4bee9abaf58a18c14b34c8ef}{Dodawanie\_napoczatek}}(\textcolor{keywordtype}{int}\ wartosc);}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00051}00051\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00057}00057\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lista_dwukierunkowa_a20689a671a9a64fca61718af74c79418}{Dodawanie\_nakoniec}}(\textcolor{keywordtype}{int}\ wartosc);}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00058}00058\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00062}00062\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lista_dwukierunkowa_aa5922bc357170d429597983ee35bafe4}{Wyswietlanie\_od\_poczatku}}();}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00063}00063\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00067}00067\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lista_dwukierunkowa_abf4855730035dda5914feee09480b1c9}{Wyswietlanie\_od\_konca}}();}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00068}00068\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00075}00075\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lista_dwukierunkowa_ac89220d629c0952738e42cfe220125df}{Dodawanie\_na\_index}}(\textcolor{keywordtype}{int}\ wartosc,\ \textcolor{keywordtype}{int}\ index);}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00076}00076\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00080}00080\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lista_dwukierunkowa_a0e701d468543cae9177eee61535baea6}{usuwanie\_z\_poczatku}}();}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00081}00081\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00085}00085\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lista_dwukierunkowa_a4f4530efcdb1ed88e7646795905e18e8}{usuwanie\_z\_konca}}();}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00086}00086\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00092}00092\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lista_dwukierunkowa_a51d282d089ae4e4807fb2a77606e0568}{usuwanie\_z\_indexu}}(\textcolor{keywordtype}{int}\ index);}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00093}00093\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00097}00097\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lista_dwukierunkowa_a00111ba4d85d64c1a18772748197eaa5}{czyszczenie\_listy}}();}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00098}00098\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00102}00102\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lista_dwukierunkowa_a9daed091a7531fc793819664a0c39671}{wyswietl\_nastepny}}();}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00103}00103\ }
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00107}00107\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_lista_dwukierunkowa_ac2b560d624e39b89152a44b28e9f773a}{wyswietl\_poprzedni}}();}
+\DoxyCodeLine{\Hypertarget{_lista_dwukierunkowa_8h_source_l00108}00108\ \};}
+
+\end{DoxyCode}
